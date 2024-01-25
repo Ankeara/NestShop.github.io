@@ -2014,6 +2014,7 @@ li .sub-pages .sub-page .page-link a {
     height: 163px;
   }
 }
+
 /* Responsive Moblie View*/
 @media (max-width: 425px) {
   .header-link,
@@ -2075,11 +2076,24 @@ li .sub-pages .sub-page .page-link a {
     width: 401px;
     height: auto;
   }
+  .popular-pros .header-popular,
+  .daily-best-sells .header-daily {
+    display: flex;
+  }
+  .popular-pros .header-popular .show-tab,
+  .daily-selling .header-daily .show-tab-two {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
   .popular-pros .all-products .flex-popular .product {
     width: 190px;
     height: 400px;
     margin-right: 10px;
     padding: 10px;
+  }
+  .popular-pros .header-popular h3,
+  .daily-selling .header-daily h3 {
+    font-size: 30px;
   }
   .popular-pros .all-products .flex-popular .product .img-pop img {
     width: 200px;
@@ -2109,16 +2123,16 @@ li .sub-pages .sub-page .page-link a {
     margin: 10px 0;
   }
   .daily-selling .daily-best-sells {
-    width: 1024px;
+    width: 425px;
   }
   .daily-best-sells .tab-daily-sells {
-    width: 720px;
+    width: 425px;
     height: auto;
   }
   .daily-best-sells .tab-daily-sells .all-daily-sells .flex-daily {
     display: flex;
     flex-wrap: wrap;
-    width: 720px;
+    width: 425px;
     height: auto;
   }
   .tab-daily-sells .all-daily-sells .flex-daily .daily-product {
@@ -2126,12 +2140,6 @@ li .sub-pages .sub-page .page-link a {
     width: 190px;
     height: 420px;
     margin: 5px;
-  }
-  .tab-daily-sells .all-daily-sells .flex-daily .daily-product {
-    display: block;
-    width: 320px;
-    height: 420px;
-    margin: 10px;
   }
   .deal-ofthe-day .deal-products .deal-pro {
     width: 400px;
@@ -2204,6 +2212,17 @@ li .sub-pages .sub-page .page-link a {
   .banner-show .banners:last-child {
     display: block;
   }
+  .popular-pros .header-popular .show-tab,
+  .daily-selling .header-daily .show-tab-two {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .popular-pros .header-popular .show-tab .btn-tab,
+  .daily-selling .header-daily .show-tab-two .btn-tab-two {
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 7px 14px;
+  }
   .popular-pros,
   .daily-selling,
   .deal-ofthe-day,
@@ -2212,15 +2231,20 @@ li .sub-pages .sub-page .page-link a {
     width: 365px;
     height: auto;
   }
+  .popular-pros .all-products .flex-popular,
+  .all-daily-sells .flex-daily {
+    padding-left: 15px;
+  }
   .popular-pros .all-products .flex-popular .product {
-    width: 190px;
-    height: 300px;
+    width: 160px;
+    height: auto;
     margin-right: 10px;
     padding: 10px;
   }
-  .popular-pros .all-products .flex-popular .product .img-pop img {
-    width: 200px;
-    height: 200px;
+  .popular-pros .all-products .flex-popular .product .img-pop img,
+  .all-daily-sells .flex-daily .daily-product .img-daily img {
+    width: 130px;
+    height: 130px;
     display: block;
     margin: 0 auto;
   }
@@ -2260,15 +2284,9 @@ li .sub-pages .sub-page .page-link a {
   }
   .tab-daily-sells .all-daily-sells .flex-daily .daily-product {
     display: block;
-    width: 190px;
-    height: 420px;
+    width: 160px;
+    height: auto;
     margin: 5px;
-  }
-  .tab-daily-sells .all-daily-sells .flex-daily .daily-product {
-    display: block;
-    width: 320px;
-    height: 420px;
-    margin: 10px;
   }
   .deal-ofthe-day .deal-products .deal-pro {
     width: 370px;
@@ -2285,7 +2303,7 @@ li .sub-pages .sub-page .page-link a {
     left: 25px;
   }
   .deal-products .deal-pro .detail-deal .date-sell {
-    width: 360px;
+    width: 320px;
   }
   .deal-products .deal-pro .detail-deal .date-sell .date {
     display: block;
@@ -2296,7 +2314,7 @@ li .sub-pages .sub-page .page-link a {
     margin-right: 7px;
   }
   .deal-products .deal-pro .detail-deal .detail-pro {
-    width: 350px;
+    width: 320px;
     height: 163px;
   }
 }
