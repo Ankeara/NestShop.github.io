@@ -2163,3 +2163,140 @@ li .sub-pages .sub-page .page-link a {
     height: 163px;
   }
 }
+
+@media (max-width: 375px) {
+  .header-menu-tablet,
+  .banner-slide,
+  .view-brands {
+    width: 375px;
+    padding: 20px 5%;
+  }
+  .header-menu-tablet.sticky-tablet {
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 380px;
+    padding: 10px 8%;
+    z-index: 99999;
+  }
+  .view-brands .header-brand {
+    display: flex;
+    flex-direction: column;
+  }
+  .session-acc .carts {
+    width: 100px;
+    height: 50px;
+    position: relative;
+  }
+  .banner-slide .banners {
+    width: 345px;
+    height: 250px;
+  }
+  .banner-show {
+    width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-show .banners:last-child {
+    display: block;
+  }
+  .popular-pros,
+  .daily-selling,
+  .deal-ofthe-day,
+  .subscribe,
+  .footer {
+    width: 365px;
+    height: auto;
+  }
+  .popular-pros .all-products .flex-popular .product {
+    width: 190px;
+    height: 300px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .popular-pros .all-products .flex-popular .product .img-pop img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .popular-pros .all-products .flex-popular .product .details .price-cart {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .popular-pros
+    .all-products
+    .flex-popular
+    .product
+    .details
+    .price-cart
+    .addtocart {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  .daily-selling .daily-best-sells {
+    width: 370px;
+  }
+  .daily-best-sells .tab-daily-sells {
+    width: 370px;
+    height: auto;
+  }
+  .daily-best-sells .tab-daily-sells .all-daily-sells .flex-daily {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    height: auto;
+  }
+  .tab-daily-sells .all-daily-sells .flex-daily .daily-product {
+    display: block;
+    width: 190px;
+    height: 420px;
+    margin: 5px;
+  }
+  .tab-daily-sells .all-daily-sells .flex-daily .daily-product {
+    display: block;
+    width: 320px;
+    height: 420px;
+    margin: 10px;
+  }
+  .deal-ofthe-day .deal-products .deal-pro {
+    width: 370px;
+    height: 330px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .deal-products .deal-pro .deal-img {
+    width: 350px;
+    height: 257px;
+  }
+  .deal-products .deal-pro .detail-deal {
+    left: 25px;
+  }
+  .deal-products .deal-pro .detail-deal .date-sell {
+    width: 360px;
+  }
+  .deal-products .deal-pro .detail-deal .date-sell .date {
+    display: block;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    padding: 8px 14px;
+    margin-right: 7px;
+  }
+  .deal-products .deal-pro .detail-deal .detail-pro {
+    width: 350px;
+    height: 163px;
+  }
+}
